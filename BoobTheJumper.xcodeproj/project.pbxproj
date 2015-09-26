@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		204823991BB75629004DF429 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204823981BB75629004DF429 /* AppDelegate.swift */; };
+		2048239B1BB75629004DF429 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2048239A1BB75629004DF429 /* GameScene.sks */; };
+		2048239D1BB75629004DF429 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2048239C1BB75629004DF429 /* GameScene.swift */; };
+		2048239F1BB75629004DF429 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2048239E1BB75629004DF429 /* GameViewController.swift */; };
+		204823A11BB75629004DF429 /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204823A01BB75629004DF429 /* Game.xcassets */; };
+		204823A41BB75629004DF429 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204823A21BB75629004DF429 /* Main.storyboard */; };
+		204823A61BB75629004DF429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204823A51BB75629004DF429 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		204823951BB75629004DF429 /* BoobTheJumper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoobTheJumper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		204823981BB75629004DF429 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2048239A1BB75629004DF429 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		2048239C1BB75629004DF429 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2048239E1BB75629004DF429 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		204823A01BB75629004DF429 /* Game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Game.xcassets; sourceTree = "<group>"; };
+		204823A31BB75629004DF429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		204823A51BB75629004DF429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		204823A71BB75629004DF429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		204823921BB75629004DF429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2048238C1BB75629004DF429 = {
+			isa = PBXGroup;
+			children = (
+				204823971BB75629004DF429 /* BoobTheJumper */,
+				204823961BB75629004DF429 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		204823961BB75629004DF429 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				204823951BB75629004DF429 /* BoobTheJumper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		204823971BB75629004DF429 /* BoobTheJumper */ = {
+			isa = PBXGroup;
+			children = (
+				204823981BB75629004DF429 /* AppDelegate.swift */,
+				2048239A1BB75629004DF429 /* GameScene.sks */,
+				2048239C1BB75629004DF429 /* GameScene.swift */,
+				2048239E1BB75629004DF429 /* GameViewController.swift */,
+				204823A01BB75629004DF429 /* Game.xcassets */,
+				204823A21BB75629004DF429 /* Main.storyboard */,
+				204823A51BB75629004DF429 /* Assets.xcassets */,
+				204823A71BB75629004DF429 /* Info.plist */,
+			);
+			path = BoobTheJumper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		204823941BB75629004DF429 /* BoobTheJumper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204823AA1BB75629004DF429 /* Build configuration list for PBXNativeTarget "BoobTheJumper" */;
+			buildPhases = (
+				204823911BB75629004DF429 /* Sources */,
+				204823921BB75629004DF429 /* Frameworks */,
+				204823931BB75629004DF429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoobTheJumper;
+			productName = BoobTheJumper;
+			productReference = 204823951BB75629004DF429 /* BoobTheJumper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2048238D1BB75629004DF429 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Icaro Barreira Lavrador";
+				TargetAttributes = {
+					204823941BB75629004DF429 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 204823901BB75629004DF429 /* Build configuration list for PBXProject "BoobTheJumper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2048238C1BB75629004DF429;
+			productRefGroup = 204823961BB75629004DF429 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				204823941BB75629004DF429 /* BoobTheJumper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		204823931BB75629004DF429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204823A41BB75629004DF429 /* Main.storyboard in Resources */,
+				2048239B1BB75629004DF429 /* GameScene.sks in Resources */,
+				204823A61BB75629004DF429 /* Assets.xcassets in Resources */,
+				204823A11BB75629004DF429 /* Game.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		204823911BB75629004DF429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2048239D1BB75629004DF429 /* GameScene.swift in Sources */,
+				2048239F1BB75629004DF429 /* GameViewController.swift in Sources */,
+				204823991BB75629004DF429 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		204823A21BB75629004DF429 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				204823A31BB75629004DF429 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		204823A81BB75629004DF429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		204823A91BB75629004DF429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		204823AB1BB75629004DF429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BoobTheJumper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nz.co.icaro.BoobTheJumper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		204823AC1BB75629004DF429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BoobTheJumper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nz.co.icaro.BoobTheJumper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		204823901BB75629004DF429 /* Build configuration list for PBXProject "BoobTheJumper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204823A81BB75629004DF429 /* Debug */,
+				204823A91BB75629004DF429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		204823AA1BB75629004DF429 /* Build configuration list for PBXNativeTarget "BoobTheJumper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204823AB1BB75629004DF429 /* Debug */,
+				204823AC1BB75629004DF429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2048238D1BB75629004DF429 /* Project object */;
+}
