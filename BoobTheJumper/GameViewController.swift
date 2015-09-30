@@ -15,8 +15,10 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
 
         if let scene = SKScene(fileNamed: "GameScene") as? GameScene {
+            
             // Configure the view.
             let skView = self.view as! SKView
+            
             skView.showsFPS = true
             skView.showsNodeCount = true
             
@@ -32,6 +34,5 @@ class GameViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Release any cached data, images, etc that aren't in use.
     }
 }
